@@ -76,7 +76,7 @@ export const Experience = () => {
             })
     })
 
-    if (!map) return <></>
+    if (!map || !players || !drunkie) return <></>
     
     return (
         <>
